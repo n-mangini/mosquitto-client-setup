@@ -1,4 +1,5 @@
-include/ca-root-cert.crt
-include/config.py
-include/__pycache__
+python-client/include/ca-root-cert.crt
+python-client/include/config.py
+python-client/include/__pycache__
 venv
+.vscode
