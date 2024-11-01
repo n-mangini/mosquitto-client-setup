@@ -1,0 +1,4 @@
+include/ca-root-cert.crt
+include/config.py
+include/__pycache__
+venv
