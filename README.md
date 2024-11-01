@@ -3,7 +3,7 @@
 ## Instructions
 
 1. **Create a Virtual Environment**  
-   Run the following command to create a virtual environment:
+   Run the following command to create a virtual environment inside [python-client folder](https://github.com/n-mangini/mosquitto-client-setup/tree/main/python-client):
    ```bash
    python3 -m venv venv
 
