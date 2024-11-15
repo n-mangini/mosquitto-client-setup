@@ -1,5 +1,6 @@
-BROKER=""
-PORT=
-CERT=""
+SUBDOMAIN = ""  # Replace with your actual DuckDNS subdomain
+BROKER = f"{SUBDOMAIN}.duckdns.org"
+PORT = 1883  # Replace with the actual port (e.g., 1883 or 8883 for secure MQTT)
+
 USERNAME=""
 PASSWORD=""

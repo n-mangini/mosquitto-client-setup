@@ -1,5 +1,6 @@
 import paho.mqtt.client as mqtt
-from include.config import CERT,BROKER, PORT, USERNAME, PASSWORD
+from include.config import BROKER, PORT, USERNAME, PASSWORD
+CERT = "python-client/include/ca-root-cert.crt"
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code " + str(rc))
