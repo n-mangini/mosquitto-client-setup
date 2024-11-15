@@ -21,9 +21,9 @@
    - Create your own config.py using [config.py.template](https://github.com/n-mangini/mosquitto-client-setup/blob/main/python-client/include/config.py.template).
    - Note: use PORT=8883 for secured mode, 1883 for unsecured
      
-```bash
-cp python-client/include/config.py.template ./python-client/include/config.py && vim python-client/include/config.py
-```
+   ```bash
+   cp python-client/include/config.py.template ./python-client/include/config.py && vim python-client/include/config.py
+   ```
 
 4. **Run the Client Script**  
    Now, you can run the `client.py` script to test the MQTT broker:
