@@ -20,6 +20,7 @@
 4. **Add your own configuration**
    - Create your own config.py using [config.py.template](https://github.com/n-mangini/mosquitto-client-setup/blob/main/python-client/include/config.py.template).
    - Note: use PORT=8883 for secured mode, 1883 for unsecured
+     
    ```bash
    cp python-client/include/config.py.template ./python-client/include/config.py && vim python-client/include/config.py
    ```
