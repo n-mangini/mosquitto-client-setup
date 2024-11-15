@@ -1,6 +1,6 @@
 # Python Client
 
-## Instructions
+## Usage
 
 1. **Create a Virtual Environment**  
    Run the following command to create a virtual environment inside [python-client folder](https://github.com/n-mangini/mosquitto-client-setup/tree/main/python-client):
@@ -17,10 +17,16 @@
    ```bash
    pip install paho-mqtt
 
+4. **Add your own configuration**
+   Create your own config.py using [config.py.template](https://github.com/n-mangini/mosquitto-client-setup/blob/main/python-client/include/config.py.template).
+   ```bash
+   cp python-client/include/config.py.template ./python-client/include/config.py && vim python-client/include/config.py
+   ```
+
 4. **Run the Client Script**  
    Now, you can run the `client.py` script to test the MQTT broker:
    ```bash
-   python3 client.py
+   python3 python-client/client.py
 
 ## Notes
 
