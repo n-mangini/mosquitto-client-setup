@@ -25,6 +25,9 @@
    cp python-client/include/config.py.template ./python-client/include/config.py && vim python-client/include/config.py
    ```
 
+5. **Add your own certificates**
+   COpy the content of your certificate in (ca-root-cert.crt)[https://github.com/n-mangini/mosquitto-client-setup/blob/main/python-client/include/ca-root-cert.crt.template].
+
 4. **Run the Client Script**  
    Now, you can run the `client.py` script to test the MQTT broker:
    ```bash
